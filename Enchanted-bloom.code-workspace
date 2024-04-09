@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Enchanted-bloom",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Enchanted-bloom"
+	}
+}
