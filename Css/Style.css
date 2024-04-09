@@ -5,7 +5,7 @@
 /*-- Page one --*/
 
 #banner{
-     background: linear-gradient(rgba(0, 0, 0, 0.5), #94136271) , url(../homeFolder/Tbanner2.jpg);
+     background: linear-gradient(rgba(0, 0, 0, 0.5), #94136271) , url(/homeFolder/Tbanner2.jpg);
      background-size: cover;
      background-position: center;
      height: 100vh;
@@ -18,11 +18,11 @@
 }
 .banner-text{
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     padding-top: 250px;
 }
 .banner-text h1{
-    font-size: 115px;
+    font-size: 100px;
     font-weight: 400;
     font-family: "Kaushan Script", cursive;
     font-style: normal;
@@ -63,6 +63,10 @@
     z-index: -1;
     background: #fff;
     transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 .banner-btn a:hover span{
     width: 100%;
@@ -205,7 +209,7 @@ nav ul li a{
     padding: 0 20px;
     text-align: initial;
 }
-features-text p{
+.features-text p{
     padding: 0 20px;
     text-align: initial;
 }
@@ -226,7 +230,7 @@ features-text p{
 #service{
     width: 100%;
     padding: 70px 0 ;
-    background: linear-gradient(rgba(0,0,0,0.5),#3d17a786);
+    background: linear-gradient(rgb(252, 252, 252),#3d17a786);
 }
 .service_box{
     width: 80%;
@@ -254,7 +258,7 @@ features-text p{
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0.5),#f1137be0);
+    background: linear-gradient(rgb(0, 0, 0),#f1137be0);
     opacity: 0;
     transition: 1s;
 }
@@ -312,6 +316,7 @@ hr{
 #testimonial{
     width: 100%;
     padding: 70px 0;
+    background: linear-gradient(#cf4dcf41,#ffffffd7);
 }
 .testimonial-row{
     width: 80%;
@@ -374,9 +379,9 @@ hr{
 
 /*-- FOoter --*/
 
-.footer{
+#footer{
     padding: 100px 0 20px;
-    background: #f1137be0;
+    background: linear-gradient(rgba(255, 255, 255, 0.842),#8552c780);
     position: relative;
 }
 .footeRow{
@@ -400,14 +405,54 @@ hr{
     margin: 10px;
 }
 .footerImg{
-   max-width: 370px;
+   max-width: 270px;
    opacity: 0.1;
    position: absolute;
-   left: 50%;
+   left: 33%;
    top: 35%;
    transform: translate(50%, -50%);
    -webkit-transform: translate(50%, -50%);
    -moz-transform: translate(50%, -50%);
    -ms-transform: translate(50%, -50%);
    -o-transform: translate(50%, -50%);
+}
+.socialLinks{
+    text-align: center;
+}
+.socialLinks .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #f1137be0;
+    margin: 40px 5px 0;
+    color: #f1137be0;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.socialLinks .fa:hover{
+    background:#f1137be0 ;
+    color: rgb(255, 255, 255);
+    transform: translate(-7px);
+    -webkit-transform: translate(-7px);
+    -moz-transform: translate(-7px);
+    -ms-transform: translate(-7px);
+    -o-transform: translate(-7px);
+}
+.socialLinks p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+@media screen and (max-width:770px){
+    .footeLeft .fa, .footeRight .fa{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .footerImg{
+        top: 25%;
+    }
 }

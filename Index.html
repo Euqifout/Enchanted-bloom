@@ -8,8 +8,10 @@
         <!--link to icon -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--link scroll -->
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
         <!--link to watermark -->
-        <a href="https://www.flaticon.com/free-icons/rose" title="rose icons">Rose icons created by Chanut-is-Industries - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/rose" title="rose icons"></a>
         <!--links to fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,11 +32,9 @@
                     <!-- The Main Page -->
       <body>
           <section id="banner">   <!-- background-->
-            <img src="homeFolder/Screenshot (21).png" class="logo">  
- 
+            <img src="homeFolder/Screenshot (21).png" class="logo">     
               <div class="banner-text">
                   <h1>Enchanted Bloooms</h1>
-
                     <p>Flower Shop</p>                  
                         <div>
                               <div class = "banner-btn" > 
@@ -42,8 +42,7 @@
                                 <a href="#"><span></span>More</a>
                               </div>
                       </div>
-                  <div class = "banner-b" >
-                  </div> 
+                  <div class = "banner-b"></div> 
               </div>
               
           </section>
@@ -53,11 +52,11 @@
             <div id="sideNav">
               <nav>
                 <ul>
-                  <li><a href="#">HOME</a> </li>
-                  <li><a href="#">FEATURES</a> </li>
-                  <li><a href="#">SERVICES</a> </li>
-                  <li><a href="#">TESTIMONIALS</a> </li>
-                  <li><a href="#">MEET US</a> </li>
+                  <li><a href="#banner">HOME</a> </li>
+                  <li><a href="#feature">FEATURES</a> </li>
+                  <li><a href="#service">SERVICES</a> </li>
+                  <li><a href="#testimonial">TESTIMONIALS</a> </li>
+                  <li><a href="#footer">MEET US</a> </li>
                 </ul>
               </nav>
             </div>
@@ -242,6 +241,14 @@
               </div>
               </div>
 
+              <div class="socialLinks">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube"></i>
+                <p>© Copyright Enchanted Bloooms </p>
+              </div>
+
             </section>
 
             <script>
@@ -260,7 +267,9 @@
                   menu.src = "homeFolder/Tmenu2.png";
                 }
               }
-
+              var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 1000
+              });
             </script>
             
       </body>
