@@ -113,8 +113,8 @@ nav ul li a{
     cursor: pointer;
 }
 #menuBtn img{
-    width: 30px;
-    margin-top: 20px;
+    width: 50px;
+    margin-top: 8px;
 }
 @media screen and (max-width:770px){
     .banner-text h1{
