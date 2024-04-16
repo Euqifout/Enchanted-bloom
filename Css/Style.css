@@ -61,7 +61,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: #fff;
+    background: linear-gradient(rgb(102, 12, 121), #8552c780);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -72,7 +72,9 @@
     width: 100%;
 }
 .banner-btn a:hover {
-    color: #f1137be0;
+    color: #fff;
+    font-family: "Kaushan Script", cursive;
+    border: .5px solid #fff ;
 }
 
 /*-- The menu --*/
