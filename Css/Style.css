@@ -133,7 +133,7 @@ nav ul li a{
 #feature{
     width: 100%;
     padding: 70px 0;
-    background: linear-gradient( #ffffffe0,rgb(104, 100, 100) );
+    background: linear-gradient( #ffffffe0,rgba(106, 64, 206, 0.507) );
 }
 .title-text{
     text-align: center;
