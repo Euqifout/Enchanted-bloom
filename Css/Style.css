@@ -9,14 +9,14 @@
 }
 .title h1{
     margin: 0;
-    padding: 0;
+    padding-top: 50px;
     color: #009680;
     text-transform: uppercase;
     font-size: 35px;
 }
 .container{
     width: 50%;
-    height: 400px;
+    height: 440px;
     background: #fff;
     margin: 0 auto;
     border: 2px solid #fff;
@@ -28,7 +28,7 @@
 .container .left{
     float: left;
     width: 50%;
-    height: 395px;
+    height: 435px;
     background: url(../homeFolder/flower4.jpg);
     background-size: cover;
     box-sizing: border-box;
@@ -36,7 +36,7 @@
 .container .right{
     float: right;
     width: 50%;
-    height: 400px;
+    height: 435px;
     box-sizing: border-box; 
 }
 .formbox{
@@ -82,6 +82,9 @@
     color: #262626;
     font-size: 12px;
     font-weight: bold;
+}
+.toHome a{
+    margin-bottom: 20px;
 }
 
 /*-- Page one --*/
