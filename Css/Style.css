@@ -7,8 +7,9 @@
     text-decoration: none;
 }
 .navBar{
-    background: linear-gradient(rgb(201, 12, 60), #eb09df96), url(../homeFolder/LoginNavPic.jpg);
-    font-family:'Courier New', Courier, monospace;
+    background:  url(../homeFolder/logPic4.jpg);
+    font-family: "Kaushan Script", cursive;
+    background-size: cover;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -20,7 +21,7 @@
 .navLogo a{
     font-size: 40px;
     font-weight: 500;
-    color: aliceblue;
+    color: white;
 }
 li{
     list-style: none;
@@ -39,7 +40,7 @@ li a{
 }
 .title h1{
     margin: 0;
-    padding-top: 10px;
+    padding-top: 0;
     color: #009680;
     text-transform: uppercase;
     font-size: 35px;
@@ -58,7 +59,7 @@ li a{
     float: left;
     width: 50%;
     height: 435px;
-    background: url(../homeFolder/loginT.jpg);
+    background: url(../homeFolder/flower4.jpg);
     background-size: cover;
     box-sizing: border-box;
 }
@@ -118,7 +119,7 @@ li a{
 
 /*-- Index Page --*/
 #banner{
-     background:  url(../homeFolder/bannerT.jpg);
+     background:  linear-gradient(rgba(99, 95, 96, 0.397), #83020d27),url(../homeFolder/bannerT.jpg);
      background-size: cover;
      background-position: center;
      height: 100vh;
