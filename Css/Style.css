@@ -2,14 +2,44 @@
     margin: 0;
     padding: 0;
 }
-
+/*-- Login Top Navigation Bar --*/
+*{
+    text-decoration: none;
+}
+.navBar{
+    background: linear-gradient(rgb(201, 12, 60), #eb09df96), url(../homeFolder/LoginNavPic.jpg);
+    font-family:'Courier New', Courier, monospace;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    font-display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLogo a{
+    font-size: 40px;
+    font-weight: 500;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+/*-- Login Page --*/
 .title{
     text-align: center;
     padding: 50px 0 20px;
 }
 .title h1{
     margin: 0;
-    padding-top: 50px;
+    padding-top: 10px;
     color: #009680;
     text-transform: uppercase;
     font-size: 35px;
@@ -24,12 +54,11 @@
     background-size: cover;
     box-sizing: border-box;
 }
-
 .container .left{
     float: left;
     width: 50%;
     height: 435px;
-    background: url(../homeFolder/flower4.jpg);
+    background: url(../homeFolder/loginT.jpg);
     background-size: cover;
     box-sizing: border-box;
 }
@@ -79,7 +108,7 @@
     background: #a6af13;
 }
 .formbox a{
-    color: #262626;
+    color: #070707;
     font-size: 12px;
     font-weight: bold;
 }
@@ -87,9 +116,9 @@
     margin-bottom: 20px;
 }
 
-/*-- Page one --*/
+/*-- Index Page --*/
 #banner{
-     background:  url(../homeFolder/bannntrT.gif);
+     background:  url(../homeFolder/bannerT.jpg);
      background-size: cover;
      background-position: center;
      height: 100vh;
@@ -145,7 +174,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(rgb(102, 12, 121), #8552c780);
+    background: linear-gradient(rgb(201, 12, 60), #eb09df96);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;

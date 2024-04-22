@@ -6,19 +6,35 @@
         <meta charset="utf-8">
         <title>Login Form</title>
         <link rel="stylesheet" href="./Css/Style.css">
+        <!--navigation Bar-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navigation Bar</title>   
     </head>
     <body>
+
+                <!-- The top Navigation -->
+        <nav class="navBar">
+            <div class="navdiv">
+                <div class = "navLogo "><a href="#">DATAHOLICS</a> </div>
+                        <ul>
+                        <li><a href="Index.html"><span></span>Home</a> </li>
+                        <li><a href="Index.html#footer">CONTACT US</a> </li>
+                        </ul>       
+            </div>
+        </nav>
 
         <style>
             body{
                 margin: 0;
                 padding: 0;
-                background:  url(homeFolder/flower4.jpg);
+                background: linear-gradient(rgb(29, 2, 34), #8552c780), url(homeFolder/flower4.jpg);
                 background-size: cover;
                 font-family: sans-serif;
             }
         </style>
-        
+
+        <!-- The page -->
         <div class="title"><h1>Sign in Form</h1></div>
             <div class="container">
             <div class="left"></div>
@@ -31,21 +47,11 @@
                             <input type="Password" name="" placeholder="********">   
                             <input type="submit" name="" value="Sign in">
                             <a href="#">Forgot password</a>
-                            <a href="#">Create account</a>
-                                <div>
-                                    <ul>
-                                        <div class = "toHome" > 
-                                            <a href="Index.html"><span></span>Home</a>
-                                        </div>
-                                    </ul>
-                                </div>   
+                            <a href="#">Create account</a>  
                         </form>
                     </div>
                 </div>
-            </div>
-
-            
-    
+            </div>   
     </body>
 </html>
  
