@@ -32,19 +32,19 @@ li a{
 /*--Registration Page--*/
 .signUpContainer{
     width: 60%;
-    height: 550px;
+    height: 650px;
     background: #f5f5f5fd;
     margin: 0 auto;
     border: 2px solid #ffffff;
     box-shadow: 0 15px 40px rgb(0,0,0,.5);
     background-size: cover;
     box-sizing: border-box;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 .signUpContainer .signUpContainerLeft{
     float: left;
     width: 50%;
-    height: 545px;
+    height: 645px;
     background: url(../homeFolder/logoPic6.jpg);
     background-size: cover;
     box-sizing: border-box;
@@ -52,7 +52,7 @@ li a{
 .signUpContainer .signUpContainerRight{
     float: right;
     width: 50%;
-    height: 545px;
+    height: 645px;
     box-sizing: border-box; 
 }
 .formBox1{
@@ -116,7 +116,7 @@ li a{
     box-shadow: 0 15px 40px rgb(0,0,0,.5);
     background-size: cover;
     box-sizing: border-box;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 .container .left{
     float: left;
