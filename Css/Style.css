@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 .navBar{
-    background:  url(../homeFolder/logPic3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.637), #0eb0cc86), url(../homeFolder/navBarPic.jpg);
     font-family: "Kaushan Script", cursive;
     background-size: cover;
     padding-right: 15px;
@@ -30,6 +30,7 @@ li a{
 }
 
 /*--Registration Page--*/
+
 .signUpContainer{
     width: 60%;
     height: 650px;
@@ -45,8 +46,9 @@ li a{
     float: left;
     width: 50%;
     height: 645px;
-    background: url(../homeFolder/logoPic6.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.623), #be1d1d5d),url(../homeFolder/indexOneCon1.jpg);
     background-size: cover;
+    background-position: center;
     box-sizing: border-box;
 }
 .signUpContainer .signUpContainerRight{
@@ -116,14 +118,15 @@ li a{
     box-shadow: 0 15px 40px rgb(0,0,0,.5);
     background-size: cover;
     box-sizing: border-box;
-    margin-top: 0%;
+    margin-top: 3%;
 }
 .container .left{
     float: left;
     width: 50%;
     height: 545px;
-    background: url(../homeFolder/TEdLogo.png);
+    background: url(../homeFolder/logincontainer.jpg);
     background-size: cover;
+    background-position: center;
     box-sizing: border-box;
 }
 .container .right{
@@ -182,7 +185,7 @@ li a{
 
 /*-- Index Page --*/
 #banner{
-     background:  linear-gradient(rgba(99, 95, 96, 0.397), #83020d27),url(../homeFolder/bannerT.jpg);
+     background:  linear-gradient(rgba(0, 0, 0, 0.637), #f1137b57),url(../homeFolder/indexWall1.jpg);
      background-size: cover;
      background-position: center;
      height: 100vh;
@@ -209,6 +212,7 @@ li a{
 .banner-text p{
     font-size: 50px;
     font-style: italic;
+    color: #ffffff;
     font-family: "Rubik Scribble", system-ui;
 }
 
@@ -224,7 +228,8 @@ li a{
     margin: 0 10px;
     padding: 12px 0;
     color: #fff ;
-    border: .5px solid #f1137be0  ;
+    border: .5px solid #fcfcfc  ;
+    background: linear-gradient(rgb(201, 12, 60), #eb09df96);
     position: relative;
     z-index: 1;
     transition: color 0.5s;
@@ -240,7 +245,7 @@ li a{
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(rgb(201, 12, 60), #eb09df96);
+    background: linear-gradient(rgb(48, 46, 46), #eb09df96);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -252,7 +257,7 @@ li a{
 }
 .banner-btn a:hover {
     color: #fff;
-    border: .5px solid #fff ;
+    border: .5px solid #000000 ;
 }
 
 /*-- The menu --*/
@@ -313,7 +318,9 @@ nav ul li a{
 #feature{
     width: 100%;
     padding: 70px 0;
-    background: linear-gradient( #ffffffe0,rgba(106, 64, 206, 0.507) );
+    background: linear-gradient( #ffffffe0,rgba(106, 64, 206, 0.507) ), url(../homeFolder/IndexWall2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .title-text{
     text-align: center;
@@ -377,6 +384,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    color: #fffdfee0;
 }
 .features-icon .fa{
     width: 50px;
@@ -385,7 +393,7 @@ nav ul li a{
     line-height: 50px;
     border-radius: 8px;
     color: #f1137be0;
-    border: 1px solid black ;
+    border: 1px solid rgb(255, 255, 255) ;
 }
 
 .features-icon p{
@@ -413,7 +421,9 @@ nav ul li a{
 #service{
     width: 100%;
     padding: 70px 0 ;
-    background: linear-gradient(rgb(252, 252, 252),#e91bf086);
+    background: linear-gradient(rgba(207, 207, 187, 0.548),#6f97555d) , url(../homeFolder/IndexWall3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .service_box{
     width: 80%;
