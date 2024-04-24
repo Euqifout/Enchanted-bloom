@@ -28,11 +28,88 @@ li a{
     font-weight: bold;
     margin-right: 25px;
 }
+
+/*--Registration Page--*/
+.signUpContainer{
+    width: 60%;
+    height: 550px;
+    background: #f5f5f5fd;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    box-shadow: 0 15px 40px rgb(0,0,0,.5);
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+.signUpContainer .signUpContainerLeft{
+    float: left;
+    width: 50%;
+    height: 545px;
+    background: url(../homeFolder/logoPic6.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.signUpContainer .signUpContainerRight{
+    float: right;
+    width: 50%;
+    height: 545px;
+    box-sizing: border-box; 
+}
+.formBox1{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.formBox1 p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #af8513;
+}
+.formBox1 input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.formBox1 input[type="text"],
+.formBox1 input[type="email"],
+.formBox1 input[type="Password"]
+{
+    border: none;
+    border-bottom: 2px solid #960064;
+    outline: none;
+    height: 40px;
+}
+.formBox1 input[type="text"]:focus,
+.formBox1 input[type="email"]:focus,
+.formBox1 input[type="Password"]:focus{
+    border-bottom: 2px solid #262626;
+}
+.formBox1 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+.formBox1 input[type="submit"]:hover{
+    background: #960064;
+}
+.formBox1 a{
+    color: #070707;
+    font-size: 12px;
+    font-weight: bold;
+}
+.toHome a{
+    margin-bottom: 20px;
+}
+
 /*-- Login Page --*/
 
 .container{
     width: 60%;
-    height: 440px;
+    height: 550px;
     background: #f5f5f5fd;
     margin: 0 auto;
     border: 2px solid #ffffff;
@@ -44,7 +121,7 @@ li a{
 .container .left{
     float: left;
     width: 50%;
-    height: 435px;
+    height: 545px;
     background: url(../homeFolder/TEdLogo.png);
     background-size: cover;
     box-sizing: border-box;
@@ -52,7 +129,7 @@ li a{
 .container .right{
     float: right;
     width: 50%;
-    height: 435px;
+    height: 545px;
     box-sizing: border-box; 
 }
 .formbox{
@@ -69,7 +146,7 @@ li a{
 }
 .formbox input{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .formbox input[type="text"],
 .formbox input[type="Password"]
@@ -135,7 +212,7 @@ li a{
     font-family: "Rubik Scribble", system-ui;
 }
 
-/*-- Button --*/
+/*-- Page 1 Buttons --*/
 
 .banner-btn{
     margin: 70px auto 0;
@@ -175,7 +252,6 @@ li a{
 }
 .banner-btn a:hover {
     color: #fff;
-    font-family: "Kaushan Script", cursive;
     border: .5px solid #fff ;
 }
 
