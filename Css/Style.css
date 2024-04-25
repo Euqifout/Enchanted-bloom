@@ -510,7 +510,7 @@ hr{
 #testimonial{
     width: 100%;
     padding: 70px 0;
-    background: linear-gradient(#10c7dfec,#f8f3f3ee) ;
+    background: linear-gradient(#14f7b3da,#f8f3f3ee) ;
     background-size: cover;
     background-position: center;
 }
@@ -577,7 +577,7 @@ hr{
 
 #footer{
     padding: 100px 0 20px;
-    background: linear-gradient(rgba(255, 255, 255, 0.842),#8552c79f), url(../homeFolder/footerBack.jpg) ; 
+    background: linear-gradient(rgba(255, 255, 255, 0.932),#14f7b39f), url(../homeFolder/footerBack.jpg) ; 
     background-size: cover;
     background-position: center;
     position: relative;
@@ -603,11 +603,11 @@ hr{
     margin: 10px;
 }
 .footerImg{
-   max-width: 270px;
+   max-width: 250px;
    opacity: 0.1;
    position: absolute;
-   left: 33%;
-   top: 35%;
+   left: 35%;
+   top: 25%;
    transform: translate(50%, -50%);
    -webkit-transform: translate(50%, -50%);
    -moz-transform: translate(50%, -50%);
