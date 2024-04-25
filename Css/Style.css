@@ -385,7 +385,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    color: #fffdfee0;
+    color: #000000;
 }
 .features-icon .fa{
     width: 50px;
@@ -394,7 +394,7 @@ nav ul li a{
     line-height: 50px;
     border-radius: 8px;
     color: #f1137be0;
-    border: 1px solid rgb(255, 255, 255) ;
+    border: 1px solid rgb(3, 3, 3) ;
 }
 
 .features-icon p{
