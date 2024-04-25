@@ -2,35 +2,48 @@
     margin: 0;
     padding: 0;
 }
-/*-- Login Top Navigation Bar --*/
+/*-- Login Top Navigation Bar (form.html)--*/
 *{
     text-decoration: none;
 }
 .navBar{
-    background: linear-gradient(rgba(0, 0, 0, 0.637), #0eb0cc86), url(../homeFolder/navBarPic.jpg);
-    font-family: "Kaushan Script", cursive;
+    width: 2000px;
+    height: 55px;
+    margin: auto;
+    background:  url(../homeFolder/logincontainer.jpg);
     background-size: cover;
+    background-position: center;
+    font-family: "Kaushan Script", cursive;
     padding-right: 15px;
     padding-left: 15px;
+    position: fixed;
+    top: 0;
 }
 .navdiv{
     font-display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 li{
     list-style: none;
     display: inline-block;
 }
 li a{
+    display: block;
+    padding: 10px 20px;
     color: aliceblue;
     font-size: 23px;
     font-weight: bold;
     margin-right: 25px;
 }
 
-/*--Registration Page--*/
-
+/*--Registration Page (IndexOne.html)--*/
 .signUpContainer{
     width: 60%;
     height: 650px;
@@ -107,7 +120,7 @@ li a{
     margin-bottom: 20px;
 }
 
-/*-- Login Page --*/
+/*-- Login Page (form.html)--*/
 
 .container{
     width: 60%;
@@ -118,7 +131,7 @@ li a{
     box-shadow: 0 15px 40px rgb(0,0,0,.5);
     background-size: cover;
     box-sizing: border-box;
-    margin-top: 3%;
+    margin-top: 8%;
 }
 .container .left{
     float: left;
@@ -184,7 +197,7 @@ li a{
     margin-bottom: 20px;
 }
 
-/*-- Index Page --*/
+/*-- Index Page (index.html)--*/
 #banner{
      background:  linear-gradient(rgba(0, 0, 0, 0.637), #f1137b57),url(../homeFolder/indexWall1.jpg);
      background-size: cover;
@@ -217,8 +230,7 @@ li a{
     font-family: "Rubik Scribble", system-ui;
 }
 
-/*-- Page 1 Buttons --*/
-
+/*-- Page 1 Buttons (index.html) --*/
 .banner-btn{
     margin: 70px auto 0;
 }
@@ -261,49 +273,23 @@ li a{
     border: .5px solid #030303 ;
 }
 
-/*-- The menu --*/
-
-#sideNav{
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    background: linear-gradient(rgba(99, 95, 96, 0.692), #83020d6b),url(../homeFolder/logPic3.jpg);
-    background-size: cover;
-    background-position: center;
-    z-index: 2;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-nav ul li{
-    list-style:  none;
-    margin: 50px 20px;
-}
-nav ul li a{
+/*-- The Nav-Bar (index.html)--*/
+.vertical-nav {
+    width: 200px; 
+    background-color: #f4f4f4;
+  }
+  
+  .vertical-nav a {
+    display: block;
+    padding: 10px 20px;
     text-decoration: none;
-    color: #fff;
+    color: #333;
+  }
+  
+  .vertical-nav a:hover {
+    background-color: #ddd;
+  }
 
-}
-#menuBtn{
-    width: 50px;
-    height: 50px;
-    background: none;
-    text-align: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 3px;
-    z-index: 3;
-    cursor: pointer;
-}
-#menuBtn img{
-    width: 50px;
-    margin-top: 8px;
-}
 @media screen and (max-width:770px){
     .banner-text h1{
         font-size: 45px;
@@ -314,8 +300,7 @@ nav ul li a{
     }
 }
 
-/*-- Feature --*/
-
+/*-- Feature (index.html)--*/
 #feature{
     width: 100%;
     padding: 70px 0;
@@ -505,8 +490,7 @@ hr{
     }
 }
 
-/*-- Testimonial --*/
-
+/*-- Testimonial (index.html)--*/
 #testimonial{
     width: 100%;
     padding: 70px 0;
@@ -573,8 +557,7 @@ hr{
     }
 }
 
-/*-- FOoter --*/
-
+/*-- FOoter (index.html)--*/
 #footer{
     padding: 100px 0 20px;
     background: linear-gradient(rgba(255, 255, 255, 0.932),#14f7b39f), url(../homeFolder/footerBack.jpg) ; 
