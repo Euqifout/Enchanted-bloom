@@ -510,7 +510,9 @@ hr{
 #testimonial{
     width: 100%;
     padding: 70px 0;
-    background: linear-gradient(#a84c4c41,#ffffffd7);
+    background: linear-gradient(#10c7dfec,#f8f3f3ee) ;
+    background-size: cover;
+    background-position: center;
 }
 .testimonial-row{
     width: 80%;
@@ -575,7 +577,9 @@ hr{
 
 #footer{
     padding: 100px 0 20px;
-    background: linear-gradient(rgba(255, 255, 255, 0.842),#8552c780);
+    background: linear-gradient(rgba(255, 255, 255, 0.842),#8552c79f), url(../homeFolder/footerBack.jpg) ; 
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
 .footeRow{
