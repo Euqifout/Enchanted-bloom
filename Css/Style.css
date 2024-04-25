@@ -319,7 +319,7 @@ nav ul li a{
 #feature{
     width: 100%;
     padding: 70px 0;
-    background: linear-gradient( #ffffffe0,rgba(106, 64, 206, 0.507) ), url(../homeFolder/indexWall3.jpg);
+    background: linear-gradient( #ffffffe0,rgba(121, 120, 121, 0.877) ), url(../homeFolder/indexWall3.jpg);
     background-size: cover;
     background-position: center;
 }
